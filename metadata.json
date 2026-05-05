@@ -1,0 +1,6 @@
+{
+  "name": "MinimalAuth",
+  "description": "Login and Signup system with an admin dashboard, featuring secure authentication and minimal UI design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
