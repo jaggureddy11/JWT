@@ -16,7 +16,8 @@ async function startServer() {
   app.use(express.json());
 
   // Initialize SQLite
-  const db = new Database('./database.sqlite');
+  const dbPath = process.env.DATABASE_PATH || './database.sqlite';
+  const db = new Database(dbPath);
 
   // Create tables
   db.exec(`
