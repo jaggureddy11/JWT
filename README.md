@@ -18,37 +18,6 @@
   - **Database:** SQLite (`better-sqlite3`) for lightweight, persistent data storage.
   - **Security:** `bcryptjs` for robust password hashing.
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (v18+ recommended)
-- `npm` or `yarn`
-
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/jaggureddy11/JWT.git
-   cd JWT
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Environment Setup:**
-   Create a `.env` file in the root directory and ensure you have a secure JWT secret:
-   ```env
-   JWT_SECRET=your_super_secret_jwt_key_here
-   ```
-
-4. **Start the Development Server:**
-   ```bash
-   npm run dev
-   ```
-   The backend server and React frontend will spin up concurrently using `tsx`. You can access the application at `http://localhost:3000`.
 
 ## 📂 Project Structure
 
